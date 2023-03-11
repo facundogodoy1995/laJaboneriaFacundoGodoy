@@ -1,0 +1,109 @@
+/*esto es un comentario*/
+
+/*tambien esta el selector de id pero no lo vamos a usar*/
+
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+
+/*aca va selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Estilos Body*/
+
+
+/*Estilos del header*/
+.colorHeader{
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-bottom: 1px solid rgb(222, 221, 221);
+    
+}
+.logoHeader {
+    width: 100px;
+    display: inline;
+}
+
+/*Estilos de los Links de navegación*/
+.navegacion{
+    text-align: right
+    
+}
+.linkNav{
+    text-decoration: none;
+    color: black;
+    font-size: 20;
+    margin: 10px;
+}
+.elDisplay{
+    display: inline;
+    
+}
+
+/*Estilos del main*/
+.colorMainIndex{
+    background-color: white;
+}
+.h1Main{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    color: black;
+}
+
+.h2Main{
+    text-align: center;
+    color: black;
+}
+
+.seccionPrincipal{
+    background: url(../assets/img/galeria\ 2.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parrafoIndex{
+    font-size: 1.2rem;
+    height: 5vh;
+    border: black;
+    text-align: center;
+    padding: 10px;
+    background-color: #c3eeda;
+}
+
+/*Estilos Footer*/
+.estilosFooter{
+    background-color: rgb(222, 222, 222);
+    padding: 13px;
+}
+
+/*Imagen de fondo contacto
+.imagenFondoContacto{
+    height: 70vh;
+    background-image: url(../assets/img/limpieza\ 2\ index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}*/
+
+/*Estilos Galería*/
+
+/*Main*/
+.h1Galeria{
+    text-align: center;
+    padding: 10px;
+}
+.imagenesProductos{
+    width: 200px;
+}
+.h2Productos{
+    font-size: 1rem;
+    color: black;
+}
+
